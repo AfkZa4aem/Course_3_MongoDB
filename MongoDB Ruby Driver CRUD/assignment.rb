@@ -80,11 +80,11 @@ class Solution
   #
 
   def find_between(min, max) 
-    #place solution here
+    @coll.find(:secs => {:$gt => min, :$lt => max})
   end
 
   def find_by_letter(letter, offset, limit) 
-    #place solution here
+    
   end
 
   #
